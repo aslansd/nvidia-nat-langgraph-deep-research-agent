@@ -43,13 +43,13 @@ Add your API keys to the `.env` file:
 TAVILY_API_KEY=your_tavily_api_key_here
 
 # Required for model usage
-OPENAI_API_KEY=your_anthropic_api_key_here
-NVIDIA_API_KEY=your_anthropic_api_key_here
+OPENAI_API_KEY=your_openai_api_key_here
+NVIDIA_API_KEY=your_nvidia_api_key_here
 
 # Optional: For evaluation and tracing
 LANGSMITH_API_KEY=your_langsmith_api_key_here
 LANGSMITH_TRACING=true
-LANGSMITH_PROJECT=deep-agents-from-scratch
+LANGSMITH_PROJECT=deep-research-agent
 ```
 
 4. Run notebooks or code using uv:
